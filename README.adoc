@@ -17,8 +17,7 @@ git clone https://github.com/opennms-config-modules/airdefense.git
 .Install Air Defense events
 [source, bash]
 ----
-cd $OPENNMS_HOME/etc/events
-cp ${HOME}/opennms-config-workspace/airdefense/datacollection/*.xml ${OPENNMS_HOME}/etc/datacollection
+cp ${HOME}/opennms-config-workspace/airdefense/events/*.xml ${OPENNMS_HOME}/etc/events
 ----
 
 .Include in eventconf.xml
